@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <RootNamespace>BTD6Mods</RootNamespace>
+        <ApplicationIcon>Icon.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Icon.ico" />
+      <EmbeddedResource Include="Icon.ico" />
+    </ItemGroup>
+
+</Project>
