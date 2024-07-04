@@ -66,7 +66,7 @@ namespace ModInstaller
 
         private void InstallDotNet6()
         {
-            var dotNetInstallerUrl = "https://github.com/Jonyboylovespie/BTD6ModInstaller/raw/master/BTD6Mods/dotnet6-runtime-installer.exe";
+            var dotNetInstallerUrl = "https://github.com/Jonyboylovespie/BTD6ModInstaller/raw/master/BTD6ModInstaller/dotnet6-runtime-installer.exe";
             var installerPath = Path.Combine(AppContext.BaseDirectory, "dotnet6-runtime-installer.exe");
             using (var client = new WebClient())
             {
